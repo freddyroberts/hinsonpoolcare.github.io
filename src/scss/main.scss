@@ -1,0 +1,126 @@
+@import "/Users/fredroberts/dev/frelance/ArtSite/dist/bower_components/bourbon/app/assets/stylesheets/_bourbon.scss";
+// $visual-grid: true !default;
+@import "/Users/fredroberts/dev/frelance/ArtSite/dist/bower_components/neat/app/assets/stylesheets/_neat.scss";
+@import "./hpc-icons.css";
+body {
+  margin: 0;
+}
+// Header -----
+.header {
+  @include outer-container();
+  @include pad();
+  height: 25px;
+  .logo {
+    @include span-columns(4 of 12);
+    margin: 0;
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: left;
+    color: #8B9CA4;
+    &:hover {
+        color: #B7B4B3;
+    }
+  }
+
+  .nav {
+    @include span-columns(8 of 12);
+    line-height: 35px;
+    text-align: right;
+       .links {
+         @include span-columns(2.5 of 9);
+         list-style: none;
+         font-family: 'Raleway', sans-serif;
+         font-size: 13px;
+         font-weight: 300;
+         text-decoration: none;
+         color: #8B9CA4;
+         &:hover {
+           color: #B7B4B3
+         }
+       }
+    }
+}
+
+.hero {
+  @include outer-container(12);
+  background-image: url('../assets/pool.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 500px;
+  &::before{
+    position: absolute;
+   display: block;
+   top: 10;
+   left: 0;
+   content: "";
+   width: 100%;
+   height: 500px;
+   background-color: rgba(39, 28, 26, 0.4);
+   z-index: 0;
+  }
+}
+.title {
+  position: relative;
+  text-align: center;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+// ABOUT
+
+.about {
+  @include outer-container(12);
+
+  .family-img {
+    background-image: url();
+  }
+}
+
+
+// FOOTER -----
+.footer {
+  @include outer-container();
+  @include pad();
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  text-align: center;
+
+
+  .contact-bar {
+    @include span-columns(12 of 12);
+    @include pad();
+    text-align: center;
+
+  }
+  .contact-links {
+    text-decoration: none;
+    color: #8B9CA4;
+    font-size: 40px;
+    &:hover {
+      color: #B7B4B3;
+    }
+  }
+
+  .legal-bar {
+    @include span-columns(12 of 12);
+    @include pad();
+  }
+  .copyright {
+    color: #8B9CA4;
+  }
+  .freddyroberts {
+    text-decoration: none;
+    font-size: 14px;
+    color: #FE560D;
+    margin-left: 10px;
+    &:hover {
+      color: #BF3A00;
+    }
+  }
+}
