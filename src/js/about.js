@@ -4,9 +4,8 @@ class About extends React.Component {
   render () {
     return (
       <main className="about">
-        // <h2 className="about-title">Hinson family</h2>
         <div className="family-img"></div>
-        <p className="about-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+        <p className="about-info">Hinson Poolcare is a family owned and operated local business servicing the entire Wiregrass Region. This includes Houston, Dale, Henry, Coffee, Barbour, Pike and Geneva Counties. Michael Hinson is the man with the plan! He will complete all pool care maintenance on chlorinated and salt-water pools. He is available to work on your pool as often or as little as you need. Call today for a quote.</p>
       </main>
     )
   }

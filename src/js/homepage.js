@@ -5,7 +5,7 @@ class Home extends React.Component {
   render () {
       return (
         <section className="hero">
-          <h1 className="title">Swim free</h1>
+          <h1 className="title">Swim Clean.</h1>
         </section>
     )
   }
