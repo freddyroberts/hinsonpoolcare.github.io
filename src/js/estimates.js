@@ -10,7 +10,7 @@ class Estimates extends React.Component {
             <input type="text" placeholder="Email or Phone"/>
             <input type="text" placeholder="City"/>
             <select type="text">
-              <option value="Private" selected>Private</option>
+              <option value="Residential" selected>Residential</option>
               <option value="Commercial" selected>Commercial</option>
               <option disabled selected>Pool Type</option>
               <input type="submit" placeholder="send" value="submit"/>
