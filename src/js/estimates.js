@@ -11,9 +11,9 @@ class Estimates extends React.Component {
             <input className="estimate-info" name="Email or Phone" type="text" placeholder="Email or Phone"/>
             <input className="estimate-info" name="City" type="text" placeholder="City"/>
             <select className="estimate-info" name="Pool Type" type="text">
-              <option className="pool-types" value="Residential" selected>Residential</option>
-              <option className="pool-types" value="Commercial" selected>Commercial</option>
-              <option className="pool-types" disabled selected>Pool Type</option>
+              <option className="pool-types" name="Residential">Residential</option>
+              <option className="pool-types" name="Commercial">Commercial</option>
+              <option className="pool-types" value="Pool Types">Pool Type</option>
             </select>
             <button className="estimate-btn" type="submit" value="submit">Send</button>
           </form>
