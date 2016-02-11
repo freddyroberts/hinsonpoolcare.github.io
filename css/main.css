@@ -1,0 +1,366 @@
+@import url(./hpc-icons.css);
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+body {
+  margin: 0; }
+
+.header {
+  max-width: 12;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2.35765%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: #fff;
+  width: 100%;
+  height: 55px; }
+  .header::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .header .logo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    margin: 0;
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    color: #8B9CA4; }
+    .header .logo:last-child {
+      margin-right: 0; }
+    .header .logo:hover {
+      color: #B7B4B3; }
+  .header .nav {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+    line-height: 35px;
+    text-align: right; }
+    .header .nav:last-child {
+      margin-right: 0; }
+    .header .nav .links {
+      float: left;
+      display: block;
+      margin-right: 3.16844%;
+      width: 25.48946%;
+      list-style: none;
+      font-family: 'Raleway', sans-serif;
+      font-size: 13px;
+      font-weight: 300;
+      text-decoration: none;
+      color: #8B9CA4; }
+      .header .nav .links:last-child {
+        margin-right: 0; }
+      .header .nav .links:hover {
+        color: #B7B4B3; }
+
+.hero {
+  max-width: 12;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 75px 10px 10px 10px;
+  background-image: url("../assets/pool.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 500px;
+  margin-top: 50px; }
+  .hero::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .hero::before {
+    margin-top: 50px;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 500px;
+    background-color: rgba(137, 155, 163, 0.4);
+    z-index: 0; }
+
+.title {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  text-align: center;
+  line-height: 100px;
+  color: #fff;
+  font-size: 46px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300; }
+  .title:last-child {
+    margin-right: 0; }
+
+.company {
+  position: relative;
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300; }
+
+.estimates {
+  max-width: 12;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2.35765%;
+  background-image: url("../assets/pool.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 500px;
+  margin-top: 50px; }
+  .estimates::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .estimates::before {
+    margin-top: 50px;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 500px;
+    background-color: rgba(137, 155, 163, 0.4);
+    z-index: 0; }
+
+.estimates-title {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  padding: 2.35765%;
+  margin-bottom: 15px;
+  position: relative;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #fff;
+  font-size: 42px; }
+  .estimates-title:last-child {
+    margin-right: 0; }
+
+.estimate-form {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%;
+  margin-left: 15.35365%;
+  position: relative; }
+  .estimate-form:last-child {
+    margin-right: 0; }
+
+.estimate-info {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%;
+  padding: 18px 18px 18px 18px;
+  height: 50px;
+  margin-bottom: 12px;
+  border: none;
+  border-radius: 4px;
+  opacity: 0.89;
+  outline: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #FE560D;
+  font-size: 15px; }
+  .estimate-info:last-child {
+    margin-right: 0; }
+
+.pool-types {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #FE560D;
+  font-size: 15px; }
+
+.estimate-btn {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%;
+  padding: 2.35765%;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  background: #FE560D;
+  font-size: 15px;
+  color: #fff; }
+  .estimate-btn:last-child {
+    margin-right: 0; }
+  .estimate-btn:hover {
+    color: #8B9CA4;
+    cursor: pointer; }
+
+.about {
+  max-width: 12;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px; }
+  .about::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .about .family-img {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    background-image: url(../assets/hinson-family.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px; }
+    .about .family-img:last-child {
+      margin-right: 0; }
+    .about .family-img:before {
+      position: absolute;
+      display: block;
+      top: 10;
+      left: 0;
+      content: "";
+      width: 100%;
+      height: 350px;
+      background-color: rgba(137, 155, 163, 0.4);
+      z-index: 0; }
+  .about .about-info {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    padding: 2.35765%;
+    color: #8B9CA4;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    text-align: center; }
+    .about .about-info:last-child {
+      margin-right: 0; }
+
+.contact {
+  max-width: 12;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px; }
+  .contact::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .contact .contact-img {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    background-image: url(../assets/iphone.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px; }
+    .contact .contact-img:last-child {
+      margin-right: 0; }
+    .contact .contact-img:before {
+      position: absolute;
+      display: block;
+      top: 10;
+      left: 0;
+      content: "";
+      width: 100%;
+      height: 500px;
+      background-color: rgba(137, 155, 163, 0.4);
+      z-index: 0; }
+    .contact .contact-img .contact-title {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      padding: 2.35765%;
+      position: relative;
+      text-align: center;
+      color: #fff;
+      font-size: 42px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 300; }
+      .contact .contact-img .contact-title:last-child {
+        margin-right: 0; }
+    .contact .contact-img .contact-info {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      padding: 2.35765%;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      font-size: 24px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 300; }
+      .contact .contact-img .contact-info:last-child {
+        margin-right: 0; }
+      .contact .contact-img .contact-info:hover {
+        color: #8B9CA4; }
+
+.footer {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2.35765%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  text-align: center; }
+  .footer::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .footer .contact-bar {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    padding: 2.35765%;
+    text-align: center; }
+    .footer .contact-bar:last-child {
+      margin-right: 0; }
+  .footer .contact-links {
+    text-decoration: none;
+    color: #8B9CA4;
+    font-size: 40px; }
+    .footer .contact-links:hover {
+      color: #B7B4B3; }
+  .footer .legal-bar {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    padding: 2.35765%; }
+    .footer .legal-bar:last-child {
+      margin-right: 0; }
+  .footer .copyright {
+    color: #8B9CA4; }
+  .footer .freddyroberts {
+    text-decoration: none;
+    font-size: 14px;
+    color: #FE560D;
+    margin-left: 10px; }
+    .footer .freddyroberts:hover {
+      color: #BF3A00; }
