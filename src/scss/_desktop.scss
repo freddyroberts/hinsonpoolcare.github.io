@@ -1,0 +1,38 @@
+$desktop: new-breakpoint(min-width 769px 4);
+
+@include media($desktop) {
+.hero {
+  height: 600px;
+  &::before {
+    height: 600px;
+  }
+}
+.title {
+  font-size: 48px;
+}
+
+.about {
+  .family-img {
+    height: 550px;
+    background-position: center;
+    &::before{
+      height: 550px;
+    }
+  }
+}
+
+  .footer {
+    .contact-bar {
+      @include span-columns(6 of 12);
+      text-align: left;
+    }
+    .legal-bar {
+      @include span-columns(6 of 12);
+      line-height: 40px;
+      text-align: right;
+      .freddyroberts {
+        margin-right: 25px;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+$tablet: new-breakpoint(min-width 500px 4);
+
+@include media($tablet) {
+.estimates-title {
+  font-size: 46px;
+}
+.about {
+  // margin-top: 50px;
+  .family-img {
+    height: 400px;
+    &:before {
+      height: 400px;
+    }
+  }
+}
+.contact {
+  .contact-img {
+    .contact-title {
+      font-size: 46px;
+    }
+  }
+}
+
+}
