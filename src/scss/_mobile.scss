@@ -9,9 +9,14 @@ body {
   top: 0;
   left: 0;
   z-index: 999;
+  opacity: 0.98;
   background: #fff;
   width: 100%;
   height: 55px;
+
+  .desktop-logo {
+    display: none
+  }
   .logo {
     @include span-columns(4 of 12);
     margin: 0;
@@ -129,12 +134,12 @@ body {
 }
 .estimate-form {
   @include span-columns(10 of 12);
-  @include shift(1.8);
+  @include shift(1);
   position: relative;
 }
 
 .estimate-info {
-  @include span-columns(10 of 12);
+  @include span-columns(10 of 10);
   @include pad(18px 18px 18px 18px);
   height: 50px;
   margin-bottom: 12px;
@@ -154,7 +159,7 @@ body {
   font-size: 15px;
 }
 .estimate-btn {
-  @include span-columns(10 of 12);
+  @include span-columns(10 of 10);
   @include pad();
   height: 50px;
   border: none;

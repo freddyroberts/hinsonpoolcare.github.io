@@ -1,14 +1,54 @@
 $desktop: new-breakpoint(min-width 769px 4);
 
 @include media($desktop) {
+
+  .header {
+    .desktop-logo {
+      @include span-columns(4 of 12);
+      display: block;
+      margin: 0;
+      font-size: 28px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
+      text-decoration: none;
+      text-align: center;
+      color: #8B9CA4;
+      &:hover {
+          color: #B7B4B3;
+      }
+    }
+    .logo {
+      display: none;
+    }
+    .nav {
+      .links {
+        @include span-columns(1.5 of 9);
+        float: right;
+      }
+    }
+  }
+
 .hero {
-  height: 600px;
+  background-position: top;
+  height: 550px;
   &::before {
-    height: 600px;
+    height: 550px;
   }
 }
-.title {
-  font-size: 48px;
+
+.estimates {
+  background-position: top;
+  .estimates-title {
+    margin: 0;
+  }
+}
+
+.estimate-form{
+  @include span-columns(6 of 12);
+  @include shift(3);
+}
+.estimate-info {
+  @include span-columns(6 of 6);
 }
 
 .about {
