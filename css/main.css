@@ -25,6 +25,8 @@ body {
     clear: both;
     content: "";
     display: table; }
+  .header .desktop-logo {
+    display: none; }
   .header .logo {
     float: left;
     display: block;
@@ -166,7 +168,7 @@ body {
   display: block;
   margin-right: 2.35765%;
   width: 82.94039%;
-  margin-left: 15.35365%;
+  margin-left: 8.5298%;
   position: relative; }
   .estimate-form:last-child {
     margin-right: 0; }
@@ -174,8 +176,8 @@ body {
 .estimate-info {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 82.94039%;
+  margin-right: 2.84259%;
+  width: 100%;
   padding: 18px 18px 18px 18px;
   height: 50px;
   margin-bottom: 12px;
@@ -199,8 +201,8 @@ body {
 .estimate-btn {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 82.94039%;
+  margin-right: 2.84259%;
+  width: 100%;
   padding: 2.35765%;
   height: 50px;
   border: none;
@@ -376,15 +378,84 @@ body {
     font-size: 46px; } }
 
 @media screen and (min-width: 769px) {
+  .header .desktop-logo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    display: block;
+    margin: 0;
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    color: #8B9CA4; }
+    .header .desktop-logo:last-child {
+      margin-right: 0; }
+    .header .desktop-logo:hover {
+      color: #B7B4B3; }
+  .header .logo {
+    display: none; }
+  .header .nav .links {
+    float: left;
+    display: block;
+    margin-right: 3.16844%;
+    width: 14.0263%;
+    float: right; }
+    .header .nav .links:last-child {
+      margin-right: 0; }
   .hero {
-    height: 600px; }
+    background-position: top;
+    height: 550px; }
     .hero::before {
-      height: 600px; }
-  .about .family-img {
-    height: 550px;
-    background-position: center; }
-    .about .family-img::before {
       height: 550px; }
+  .estimates {
+    background-position: top; }
+    .estimates .estimates-title {
+      margin: 0; }
+  .estimate-form {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    margin-left: 25.58941%; }
+    .estimate-form:last-child {
+      margin-right: 0; }
+  .estimate-info {
+    float: left;
+    display: block;
+    margin-right: 4.82916%;
+    width: 100%; }
+    .estimate-info:last-child {
+      margin-right: 0; }
+  .about {
+    margin-bottom: 100px; }
+    .about .family-img {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%;
+      height: 350px;
+      background-position: top; }
+      .about .family-img:last-child {
+        margin-right: 0; }
+      .about .family-img::before {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 48.82117%;
+        height: 350px; }
+        .about .family-img::before:last-child {
+          margin-right: 0; }
+    .about .about-info {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%;
+      text-align: left; }
+      .about .about-info:last-child {
+        margin-right: 0; }
   .footer .contact-bar {
     float: left;
     display: block;
