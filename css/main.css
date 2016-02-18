@@ -225,6 +225,10 @@ body {
     clear: both;
     content: "";
     display: table; }
+  .about .about-title {
+    display: none; }
+  .about .about-names {
+    display: none; }
   .about .family-img {
     float: left;
     display: block;
@@ -296,6 +300,7 @@ body {
       margin-right: 2.35765%;
       width: 100%;
       padding: 2.35765%;
+      margin: 15px 0 15px 0;
       position: relative;
       text-align: center;
       color: #fff;
@@ -304,21 +309,25 @@ body {
       font-weight: 300; }
       .contact .contact-img .contact-title:last-child {
         margin-right: 0; }
-    .contact .contact-img .contact-info {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 100%;
+    .contact .contact-img .contact-terms {
       padding: 2.35765%;
-      position: relative;
+      text-decoration: none;
+      color: #fff;
+      font-size: 24px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
       text-align: center;
+      position: relative; }
+    .contact .contact-img .contact-details {
+      padding: 2.35765%;
+      text-align: center;
+      position: relative; }
+    .contact .contact-img .contact-info {
       text-decoration: none;
       color: #fff;
       font-size: 24px;
       font-family: 'Raleway', sans-serif;
       font-weight: 300; }
-      .contact .contact-img .contact-info:last-child {
-        margin-right: 0; }
       .contact .contact-img .contact-info:hover {
         color: #8B9CA4; }
 
@@ -370,6 +379,31 @@ body {
 @media screen and (min-width: 500px) {
   .estimates-title {
     font-size: 46px; }
+  .about .about-title {
+    display: block;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    text-align: center;
+    color: #8B9CA4;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300; }
+    .about .about-title:last-child {
+      margin-right: 0; }
+  .about .about-names {
+    display: block;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+    color: #8B9CA4;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300; }
+    .about .about-names:last-child {
+      margin-right: 0; }
   .about .family-img {
     height: 400px; }
     .about .family-img:before {
@@ -429,33 +463,33 @@ body {
     width: 100%; }
     .estimate-info:last-child {
       margin-right: 0; }
-  .about {
-    margin-bottom: 100px; }
-    .about .family-img {
+  .about .about-names {
+    margin-bottom: 30px; }
+  .about .family-img {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    height: 350px;
+    background-position: top; }
+    .about .family-img:last-child {
+      margin-right: 0; }
+    .about .family-img::before {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 48.82117%;
-      height: 350px;
-      background-position: top; }
-      .about .family-img:last-child {
+      height: 350px; }
+      .about .family-img::before:last-child {
         margin-right: 0; }
-      .about .family-img::before {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 48.82117%;
-        height: 350px; }
-        .about .family-img::before:last-child {
-          margin-right: 0; }
-    .about .about-info {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%;
-      text-align: left; }
-      .about .about-info:last-child {
-        margin-right: 0; }
+  .about .about-info {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    text-align: left; }
+    .about .about-info:last-child {
+      margin-right: 0; }
   .footer .contact-bar {
     float: left;
     display: block;
