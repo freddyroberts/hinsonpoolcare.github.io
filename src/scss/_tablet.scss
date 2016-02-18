@@ -5,7 +5,23 @@ $tablet: new-breakpoint(min-width 500px 4);
   font-size: 46px;
 }
 .about {
-  // margin-top: 50px;
+  .about-title {
+    display: block;
+    @include span-columns(12 of 12);
+    text-align: center;
+    color: #8B9CA4;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+  }
+  .about-names {
+    display: block;
+    @include span-columns(12 of 12);
+    margin-top: 0;
+    text-align: center;
+    color: #8B9CA4;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+  }
   .family-img {
     height: 400px;
     &:before {

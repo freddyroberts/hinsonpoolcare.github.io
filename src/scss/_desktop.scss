@@ -52,12 +52,23 @@ $desktop: new-breakpoint(min-width 769px 4);
 }
 
 .about {
+  // margin-bottom: 100px;
+
+  .about-names {
+    margin-bottom: 30px;
+  }
   .family-img {
-    height: 550px;
-    background-position: center;
+    @include span-columns(6 of 12);
+    height: 350px;
+    background-position: top;
     &::before{
-      height: 550px;
+      @include span-columns(6 of 12);
+      height: 350px;
     }
+  }
+  .about-info{
+    @include span-columns(6 of 12);
+    text-align: left;
   }
 }
 

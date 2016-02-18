@@ -177,6 +177,12 @@ body {
 .about {
   @include outer-container(12);
   margin-top: 50px;
+  .about-title{
+    display: none;
+  }
+  .about-names{
+    display: none;
+  }
   .family-img {
     @include span-columns(12 of 12);
     background-image: url(../assets/hinson-family.jpg);
@@ -229,18 +235,32 @@ body {
     .contact-title {
       @include span-columns(12 of 12);
       @include pad();
+      margin: 15px 0 15px 0;
       position: relative;
-      text-align: center;;
+      text-align: center;
       color: #fff;
       font-size: 40px;
       font-family: 'Raleway', sans-serif;
       font-weight: 300;
     }
-    .contact-info {
-      @include span-columns(12 of 12);
+    .contact-terms {
+      // @include span-columns(12 of 12);
       @include pad();
-      position: relative;
+      text-decoration: none;
+      color: #fff;
+      font-size: 24px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
       text-align: center;
+      position: relative;
+    }
+    .contact-details {
+      // @include span-columns(12 of 12);
+      @include pad();
+      text-align: center;
+      position: relative;
+    }
+    .contact-info {
       text-decoration: none;
       color: #fff;
       font-size: 24px;
@@ -258,6 +278,7 @@ body {
 .footer {
   @include outer-container(12);
   @include pad();
+  // border-top: 1px solid #8B9CA4;
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
   font-size: 14px;

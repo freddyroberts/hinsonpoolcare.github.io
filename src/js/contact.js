@@ -5,9 +5,15 @@ class Contact extends React.Component {
     return (
       <main className="contact">
         <div className="contact-img">
-          <p className="contact-title">Contact Micheal</p>
-          <a className="contact-info" href="mailto:hinsonpoolcare@gmail.com">hinsonpoolcare@gmail.com</a>
-          <a className="contact-info" href="tel:1-334-701-1930">(334)-701-1930</a>
+          <span className="contact-title">Contact Micheal</span>
+          <dl>
+            <dt className="contact-terms">Mail:</dt>
+            <dd className="contact-details"><a className="contact-info" href="mailto:hinsonpoolcare@gmail.com">hinsonpoolcare@gmail.com</a></dd>
+          </dl>
+          <dl>
+            <dt className="contact-terms">Phone:</dt>
+            <dd className="contact-details"><a className="contact-info" href="tel:1-334-701-1930">(334)-701-1930</a></dd>
+          </dl>
         </div>
       </main>
     )
