@@ -5,7 +5,6 @@ class Estimates extends React.Component {
     super(props)
 
     this.emailForm = this.emailForm.bind(this);
-    this.formAlert - this.formAlert.bind(this);
   }
 
   emailForm(){
@@ -22,15 +21,12 @@ class Estimates extends React.Component {
     }
   }
 
-  formAlert(){
-    alert("This is just a demo!")
-  }
   render () {
     return (
       <main className="estimates">
           <section>
             <h1 className="estimates-title">Free Estimates</h1>
-          <form className="estimate-form" method="post" action={this.formAlert} encType="text/plain">
+          <form className="estimate-form" method="post" action="mailto:hinsonpoolcare@gmail" encType="text/plain">
             <input className="estimate-info" ref="name" name="name" type="text" placeholder="Name"/>
             <input className="estimate-info" ref="phone" name="phone" type="text" placeholder="(555) 555 5555"/>
             <input className="estimate-info" ref="city" name="city" type="text" placeholder="City"/>
@@ -39,7 +35,7 @@ class Estimates extends React.Component {
               <option className="pooltype" name="Commercial">Commercial</option>
               <option className="pooltype" selected="Pool Type">Pool Type</option>
             </select>
-            <button className="estimate-btn" type="submit">Send</button>
+            <button className="estimate-btn" onClick={this.emailForm} type="submit">Send</button>
           </form>
           </section>
       </main>
